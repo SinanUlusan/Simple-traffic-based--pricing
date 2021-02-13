@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+        <link rel="stylesheet" href="style.css" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="./images/favicon-32x32.png"
+        />
+    
+        <title>Frontend Mentor | Interactive pricing component</title>
+    
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+      </head>
+
+      <script src="script.js"></script>
+<body>
+    <main class="main">
+        <div class="main-svg">
+            <div class="container">
+                <div class="header-row">
+                    <h2>Simple, traffic-based pricing</h2>
+                    <h3>Sign-up for our 30-day trial.
+                        No credit card required.</h3>
+                </div>
+            </div>
+        </div>
+        <!-- Card -->
+        <div class="card">
+            <div class="card-row row">
+                <h4> <span id="amount">100K</span>Pageviews</h4>
+
+                <input
+                class="slider-range"
+                type="range"
+                id="slide"
+                name="slide"
+                value="16"
+                step="4"
+                min="8"
+                max="36"
+              />
+
+              <span class="dollar-price">
+                <h1>$</h1>
+                <h1 id="price">16</h1>
+                <span class="month">/ month</span>
+              </span>
+              <div class="row">
+                <div class="price-row">
+                  <span>Monthly Billing</span>
+                  <label class="switch">
+                    <input type="checkbox" name="check" id="check" />
+                    <span class="slider round"></span>
+                  </label>
+                  <span>Yearly Billing</span>
+                  <span class="discount">
+                    <span class="minus"></span> 25%
+                    <span id="discount"> discount</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="row last-row">
+                <div class="last">
+                  <h5>
+                    <img src="./images/icon-check.svg" alt="" />Unlimited websites
+                  </h5>
+                  <h5>
+                    <img src="./images/icon-check.svg" alt="" />100% data ownership
+                  </h5>
+                  <h5><img src="./images/icon-check.svg" alt="" />Email reports</h5>
+                </div>
+                <button class="btn-trial">Start my trial</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="attribution">
+            <p> Coded by <b>Sinan Ulusan</b></p>
+          </div>
+    </main>
+</body>
+</html>
