@@ -4,38 +4,14 @@
     font-weight: 600;
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/manrope/v3/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE-_F.ttf) format('truetype');
-  }
-  @font-face {
+}
+@font-face {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 800;
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/manrope/v3/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59E-_F.ttf) format('truetype');
-  }
-  :root {
-    --soft-cyan: hsl(174, 77%, 80%);
-    --strong-cyan: hsl(174, 86%, 45%);
-    --light-grayish-red: hsl(14, 92%, 95%);
-    --light-red: hsl(15, 100%, 70%);
-    --pale-blue: hsl(226, 100%, 87%);
-    --white: hsl(0, 0%, 100%);
-    --very-pale-blue: hsl(230, 100%, 99%);
-    --light-grayish-blue: hsl(223, 50%, 87%);
-    --lighter-grayish-blue: hsl(224, 65%, 95%);
-    --grayish-blue: hsl(225, 20%, 60%);
-    --dark-saturated-blue: hsl(227, 35%, 25%);
-    --black: hsl(0, 0%, 0%);
-    --dark-gray: hsl(0, 0%, 55%);
-    --darker-gray: hsl(0, 0%, 41%);
-    --overlay-color: rgba(0, 0, 0, 0.7);
-    --breakpoint-xs: 0;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 992px;
-    --breakpoint-xl: 1200px;
-    --desktop: 1440px;
-    --mobile: 375px;
-  }
+}
 
 body,
 html {
